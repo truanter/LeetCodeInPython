@@ -5,6 +5,6 @@ class Solution(obj):
         :rtype: List[int]
         '''
         import math
-        s=int(math.floor(math.sqrt(area)))
+        s=int(math.sqrt(area))
         l=[i for i in range(1,s+1) if area % i==0 and i<=s][-1]
         return(int(area/l),l)
