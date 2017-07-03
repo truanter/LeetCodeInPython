@@ -1,0 +1,9 @@
+class Solution:
+    def maxDistance(self, arrays):
+        s,b = arrays[0][0],arrays[0][-1]
+        res = 0
+        for i in arrays[1:]:
+            res = max(res, i[-1]-s, b-i[0])
+            s = min(s,i[0])
+            b = max(b,i[-1])
+        return res
