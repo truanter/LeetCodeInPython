@@ -42,3 +42,12 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.py~
+*.py#
+.gitignore
+
+# Especial files
+fourSum.py
+max.py
+maxpoint2.py
+maxpoints.py
+totalHammingDistance1.py
