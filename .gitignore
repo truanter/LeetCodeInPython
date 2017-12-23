@@ -51,3 +51,5 @@ max.py
 maxpoint2.py
 maxpoints.py
 totalHammingDistance1.py
+*.xml
+*.iml
