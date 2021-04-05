@@ -20,7 +20,7 @@ class Solution(object):
         return max(res)
     def helper(self, root):
         res =[0,0]
-        if nor root: return res
+        if not root: return res
         left = self.helper(root.left)
         right = self.helper(root.right)
         res[0] = root.val + left[1] + right[1]
